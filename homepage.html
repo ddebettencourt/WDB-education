@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="homepage.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="name">Dominic de Bettencourt</div>
@@ -28,7 +29,10 @@
             <div class="white" id="projectdesc4">My first ever programming projects, mainly from elementary and middle school.
             </div>
         </div>
-        <button type="button" id="contactbutton">contact me</button>
+        <button type="button" id="contactbutton" onclick="toggleText()">contact me</button>
+        <div id="contactinfo" class="hide">Email: dominicd (at) berkeley.edu
+
+        </div>
         <div class="topmenu">
             <a href="work.html">Work</a>
             <a href="#bottomrectangle">Projects</a>
