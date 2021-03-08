@@ -1,0 +1,50 @@
+#backhome{
+    position: absolute;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    left: 45%;
+    top: 50px;
+    width: 10%;
+    height: 40px;
+    border-radius: 4px;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+#backhome:visited{
+    color: black;
+}
+#backhome:link{
+    color: black;
+}
+#backhome:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.abouttext{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: gray;
+}
+
+.largetext{
+    position: absolute;
+    top: 110px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110px;
+}
+
+.billionaire{
+    position: absolute;
+    top: 250px;
+    width: 35%;
+}
