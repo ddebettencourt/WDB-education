@@ -1,0 +1,52 @@
+
+#output{
+    background-color: black;
+    width: 396px;
+    height: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: right;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.buttonrow{
+    width: 400px;
+    height: 102px;
+    justify-content: space-between;
+}
+
+.last-button{
+    background-color: #df974c;
+}
+
+.background{
+    background-color: black;
+    width: 396px;
+}
+
+button{
+    background-color:gray;
+    color: black;
+    width: 24%;
+    height: 100px;
+    font-family: monospace;
+    font-size: 40px;
+    border-color: black;
+    border: none;
+}
+button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+.doublewide{
+    width: 49%;
+}
+.triplewide{
+    width: 74%
+}
